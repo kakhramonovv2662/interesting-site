@@ -1,0 +1,159 @@
+.hero {
+  position: relative;
+  z-index: 10;
+
+  &__contant {
+    width: 100%;
+    height: 250px;
+    background-color: gray;
+  }
+
+  &__wrapper {
+    padding-top: 100px;
+    margin-left: 350px;
+  }
+
+  &__second-wrapper {
+    margin-left: 750px;
+    margin-bottom: 50px;
+  }
+
+  &__first-svetofor {
+    max-width: 40px;
+    width: 100%;
+    height: 90px;
+    background-color: #222;
+    border-radius: 5px;
+    padding-top: 5px;
+  }
+
+  &__head {
+    max-width: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: #222;
+    margin-left: 15px;
+  }
+
+  &__red {
+    max-width: 21px;
+    width: 100%;
+    height: 21px;
+    border-radius: 50%;
+    background-color: rgb(107, 92, 92);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+  }
+
+  &__yellow {
+    max-width: 21px;
+    width: 100%;
+    height: 21px;
+    border-radius: 50%;
+    background-color: rgb(107, 92, 92);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    margin-top: 7px;
+  }
+
+  &__green {
+    max-width: 21px;
+    width: 100%;
+    height: 21px;
+    border-radius: 50%;
+    background-color: rgb(107, 92, 92);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    margin-top: 7px;
+  }
+
+  &__icon-img {
+    position: absolute;
+    z-index: 1;
+    left: 520px;
+    top: 150px;
+  }
+
+  &__list {
+    list-style-type: none;
+    display: block;
+    margin-left: 500px;
+    padding-top: 5px;
+  }
+
+  &__item {
+    width: 120px;
+    height: 50px;
+    background-color: rgb(228, 207, 18);
+    margin-top: 8px;
+  }
+
+  &__wrapper-list {
+    display: flex;
+    list-style-type: none;
+  }
+
+  &__wrapper-item {
+    max-width: 100px;
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 15px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 1;
+    top: -110px;
+  }
+
+  &__wrapper-lists {
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    z-index: 1;
+    left: 630px;
+    top: -10px;
+  }
+
+  &__left-car {
+    position: relative;
+    z-index: 1;
+    top: -220px;
+    left: 650px;
+  }
+
+  &__left-img {
+    margin-left: 200px;
+    margin-top: 1px;
+    position: relative;
+    z-index: 1;
+    top: -50px;
+  }
+
+  &__cars-icon {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__right-car {
+    position: relative;
+    z-index: 1;
+    top: -200px;
+    left: 15px;
+  }
+
+  &__right-icon {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__right-img {
+    margin-left: 220px;
+    margin-top: 1px;
+    position: relative;
+    z-index: 1;
+    top: -50px;
+  }
+}
